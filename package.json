@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnezhanaOvsiannikova/testProject.git"
+  },
+  "author": "ovsiannikova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnezhanaOvsiannikova/testProject/issues"
+  },
+  "homepage": "https://github.com/SnezhanaOvsiannikova/testProject#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "testProject",
+  "homepage": "https://github.com/SnezhanaOvsiannikova/testProject",
+  "description": "",
+  "main": "",
+  "authors": [
+    "ovsiannikova"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

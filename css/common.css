@@ -1,0 +1,40 @@
+body {
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px; }
+
+.banner {
+  height: 800px;
+  overflow: hidden;
+  position: relative; }
+
+#map {
+  height: 635px; }
+
+#main-slider {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1; }
+  #main-slider .slick-track {
+    display: block;
+    left: 0;
+    position: relative;
+    top: 0;
+    height: 100%; }
+  #main-slider .slick-list {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    height: 100%; }
+
+.footer {
+  background: #43a06d;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0 11px;
+  overflow: hidden; }
+  .footer .copyright {
+    margin-bottom: 0; }

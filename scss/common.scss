@@ -1,0 +1,57 @@
+@import "variables.scss";
+
+body  {
+	font: {
+		family: 'OpenSans', Arial, Helvetica, sans-serif;
+		size: 14px;
+	}
+	line-height: 18px;
+}
+
+.banner {
+	height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+#map {
+	height: 635px;
+}
+#main-slider{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	.slick-track {
+		display: block;
+		left: 0;
+		position: relative;
+		top: 0;
+		height: 100%;
+	}
+	.slick-list {
+		display: block;
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+		position: relative;
+		height: 100%;
+	}
+}
+
+//start main//
+
+//end main//
+//start footer//
+
+.footer {
+	background: $green1;
+	color: $white;
+	text-align: center;
+	padding: 18px 0 11px;
+	overflow: hidden;
+	.copyright {
+		margin-bottom: 0;
+	}
+} 
+//end footer//
