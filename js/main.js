@@ -46,13 +46,14 @@ $(document).ready(function () {
   //           }
   //       ]
 	});
+	$('form').validate();
 });
 
 function initMap() {
 	"user strice";
 	var myOptions = {
 		zoom:10,
-		center: new google.maps.LatLng( 50.013355300748316,36.22715011239052),
+		center: new google.maps.LatLng(50.013355300748316,36.22715011239052),
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	};
 	var mapElem = document.getElementById('map');
@@ -60,21 +61,5 @@ function initMap() {
 	if(mapElem == null) { return; }
 	map = new google.maps.Map(mapElem, myOptions);
 
-	marker = new google.maps.Marker({
-		map: map,
-		position: new google.maps.LatLng( 50.013355300748316,36.22715011239052)
-	});
-
-	infowindow = new google.maps.InfoWindow({content:'Харьков'});
-
-	google.maps.event.addListener(marker, 'click', function(){
-		infowindow.open(map,marker);
-	});
-
-	infowindow.open(map,marker);
-
-	map.set('styles',
-		
-	);
 };
 

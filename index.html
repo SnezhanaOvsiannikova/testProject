@@ -16,7 +16,7 @@
 <body>
 	<header class="header">
 		<div class="container">
-			<h1 class="logo">
+			<h1 class="logo header__logo">
 				<a href="#">Logo</a>
 			</h1>
 		</div>	
@@ -24,7 +24,7 @@
 	<main class="main">
 		<section class="banner">
 			<div id="main-slider" class="slider">
-				<div class="slide">
+				<div>
 					<img src="images/banner-1.jpg" alt="banner" class="img-scale">
 					<div class="container">
 						<div class="wrapp-info">
@@ -34,7 +34,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide">
+				<div>
 					<img src="images/banner-2.jpg" alt="banner" class="img-scale">
 					<div class="container">
 						<div class="wrapp-info">
@@ -44,7 +44,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slide">
+				<div>
 					<img src="images/banner-3.jpg" alt="banner" class="img-scale">
 					<div class="container">
 						<div class="wrapp-info">
@@ -55,25 +55,25 @@
 					</div>
 				</div>
 			</div>
-			<form class="form-box">
+			<form class="banner__zip-form zip-form">
 				<div class="input-holder">
-					<input type="text" placeholder="Enter your zip code" name="zip">
+					<input type="text" placeholder="Enter your zip code" name="zip"  minlength="2" required>
 				</div>
 				<p>This is Photoshop's version  of <br>Lorem Ipsum.</p>
 				<button class="btn hvr-shutter-out-horizontal" type="submit">press me</button>
 			</form>
 		</section>
 		<section class="carousel-block">
-			<div id="carousel" class="carousel-box">
+			<div id="carousel" class="carousel-block__slider slider">
 				<div class="slide">
 					<div class="container">
-						<div class="wrapper">
-							<article class="documents">
-								<h2>Documents</h2>
+						<div class="carousel-block__wrapper wrapper">
+							<article class="carousel-block__artice-item artice-item documents">
+								<h2 class="heading-black">Documents</h2>
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
 							</article>
-							<article class="photos">
-								<h2>Photos</h2>
+							<article class="carousel-block__artice-item artice-item photos">
+								<h2 class="heading-black">Photos</h2>
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
 							</article>
 						</div>
@@ -81,13 +81,13 @@
 				</div>
 				<div class="slide">
 					<div class="container">
-						<div class="wrapper">
-							<article class="documents">
-								<h2>Prodacts</h2>
+						<div class="carousel-block__wrapper wrapper">
+							<article class="carousel-block__artice-item artice-item documents">
+								<h2 class="heading-black">Prodacts</h2>
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
 							</article>
-							<article class="photos">
-								<h2>Inovation</h2>
+							<article class="carousel-block__artice-item artice-item photos">
+								<h2 class="heading-black">Inovation</h2>
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
 							</article>
 						</div>
@@ -95,13 +95,13 @@
 				</div>
 				<div class="slide">
 					<div class="container">
-						<div class="wrapper">
-							<article class="documents">
-								<h2>Projects</h2>
+						<div class="carousel-block__wrapper wrapper">
+							<article class="carousel-block__artice-item artice-item documents">
+								<h2 class="heading-black">Projects</h2>
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
 							</article>
-							<article class="photos">
-								<h2>Team</h2>
+							<article class="carousel-block__artice-item artice-item photos">
+								<h2 class="heading-black">Team</h2>
 								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
 							</article>
 						</div>
@@ -109,10 +109,40 @@
 				</div>
 			</div>
 		</section>
+		<section class="info-section">
+			<article class="info-section__info-article info-article">
+				<div class="container">
+					<div class="content-holder info-section__img-tablet img-tablet">
+						<h2 class="heading">This is a Heading</h2>
+						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+						<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+					</div>
+				</div>
+				<span class="triangle-decoration">*</span>
+			</article>
+			<article class="info-section__info-article--side-img info-article--side-img info-article">
+				<div class="container">
+					<div class="content-holder info-section__img-laptop img-laptop">
+						<h2 class="heading">This is a Heading</h2>
+						<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+						<button class="btn-border hvr-buzz-out hvr-rectangle-out">Download</button>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="map-block">
+			<div id="map" class="map-holder"></div>
+			<form class="map-block__contact-form contact-form">
+				<input type="text" name="name" placeholder="Name"  minlength="2" required>
+				<input type="text" name="email" placeholder="email address"  minlength="2" required>
+				<textarea name="message" class="message-block" placeholder="Message" required></textarea>
+				<button class="contact-form__submit-round-btn submit-round-btn hvr-float-shadow" type="submit">press me</button>
+			</form>
+		</section>
 	</main>
-	<div id="map" class="map-box"></div>
 	<footer class="footer">&copy; Copyright 2013 Css Author, All Rights Reserved.</footer>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/jquery-validation/dist/jquery.validate.js"></script>
 	<script src="bower_components/slick-carousel/slick/slick.min.js"></script>
 	<script src="js/image-scale.min.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAg5ehSJWJKA2vHy3DEJDyBS-o8UwZTvQ&callback=initMap" type="text/javascript"></script>
