@@ -28,6 +28,7 @@ $(document).ready(function () {
 	carousel.slick ({
         speed: 300,
         slidesToShow: 1,
+        arrows: false,
         slidesToScroll: 1,
         swipeToSlide: true,
         adaptiveHeight: true,

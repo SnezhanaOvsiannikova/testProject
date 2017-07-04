@@ -7,35 +7,110 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
    	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
+   	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="css/variables.css">
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<div class="main">
-		<div class="banner">
-			<div id="main-slider">
+	<header class="header">
+		<div class="container">
+			<h1 class="logo">
+				<a href="#">Logo</a>
+			</h1>
+		</div>	
+	</header>
+	<main class="main">
+		<section class="banner">
+			<div id="main-slider" class="slider">
 				<div class="slide">
 					<img src="images/banner-1.jpg" alt="banner" class="img-scale">
+					<div class="container">
+						<div class="wrapp-info">
+							<h2>Be sure you put your feet<br>	
+								<strong>in the right place</strong>
+							</h2>
+						</div>
+					</div>
 				</div>
 				<div class="slide">
 					<img src="images/banner-2.jpg" alt="banner" class="img-scale">
+					<div class="container">
+						<div class="wrapp-info">
+							<h2>Be sure you put your feet<br>	
+								<strong>in the right place</strong>
+							</h2>
+						</div>
+					</div>
 				</div>
 				<div class="slide">
 					<img src="images/banner-3.jpg" alt="banner" class="img-scale">
+					<div class="container">
+						<div class="wrapp-info">
+							<h2>Be sure you put your feet<br>	
+								<strong>in the right place</strong>
+							</h2>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="wrapp-info">
-				<h2>Be sure you put your feet 
-					<strong>in the right place</strong>
-				</h2>
+			<form class="form-box">
+				<div class="input-holder">
+					<input type="text" placeholder="Enter your zip code" name="zip">
+				</div>
+				<p>This is Photoshop's version  of <br>Lorem Ipsum.</p>
+				<button class="btn" type="submit">press me</button>
+			</form>
+		</section>
+		<section class="carousel-block">
+			<div id="carousel" class="carousel-box">
+				<div class="slide">
+					<div class="container">
+						<div class="wrapper">
+							<article class="documents">
+								<h2>Documents</h2>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+							</article>
+							<article class="photos">
+								<h2>Photos</h2>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="wrapper">
+							<article class="documents">
+								<h2>Prodacts</h2>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+							</article>
+							<article class="photos">
+								<h2>Inovation</h2>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="container">
+						<div class="wrapper">
+							<article class="documents">
+								<h2>Projects</h2>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+							</article>
+							<article class="photos">
+								<h2>Team</h2>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+							</article>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-	<div id="map"></div>
-	<footer class="footer">
-		<p class="copyright"> &copy; Copyright 2013 Css Author, All Rights Reserved. </p>
-	</footer>
+		</section>
+	</main>
+	<div id="map" class="map-box"></div>
+	<footer class="footer">&copy; Copyright 2013 Css Author, All Rights Reserved.</footer>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/slick-carousel/slick/slick.min.js"></script>
 	<script src="js/image-scale.min.js"></script>
