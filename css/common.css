@@ -4,6 +4,21 @@ body {
   font-weight: 400;
   line-height: 18px; }
 
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform; }
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1); }
+
 .container {
   width: 100%; }
 
@@ -137,7 +152,7 @@ input {
   border-radius: 2px;
   font-size: 26px;
   font-weight: 600; }
-  .btn:hover {
+  .btn:before {
     background: #666;
     -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.28);
     -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.28);
