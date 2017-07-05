@@ -36,17 +36,25 @@ $(document).ready(function () {
         fade: true,
         cssEase: 'linear',
 		dots: true,
-		// responsive: [
-  //               {
-  //               breakpoint: 768,
-  //               settings: {
-  //                   autoplay: true,
-  //                   autoplaySpeed:2500,
-  //               }
-  //           }
-  //       ]
+		responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    autoplay: true,
+                    autoplaySpeed:3100,
+                }
+            }
+        ]
 	});
-	$('form').validate();
+	$('#form-1').validate();
+	$('#form-2').validate({
+		rules: {
+		    email: {
+				required: true,
+				email: true
+			}
+		}
+	});
 });
 
 function initMap() {
@@ -62,4 +70,3 @@ function initMap() {
 	map = new google.maps.Map(mapElem, myOptions);
 
 };
-
