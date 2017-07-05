@@ -425,7 +425,7 @@ textarea:focus {
     top: 34px; }
   .info-section__info-article {
     padding: 85px 12px 0;
-    margin-bottom: 308px;
+    margin-bottom: 75px;
     z-index: 2; }
     .info-section__info-article--side-img {
       padding: 0 0 106px;
@@ -437,7 +437,7 @@ textarea:focus {
   width: 100%;
   background: #308355;
   position: relative;
-  height: 308px; }
+  height: 75px; }
   .triangle-decoration:after, .triangle-decoration:before {
     content: '';
     position: absolute; }

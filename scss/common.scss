@@ -508,7 +508,7 @@ textarea:focus {
 	}
 	&__info-article {
 		padding: 85px 12px 0;
-		margin-bottom: 308px;
+		margin-bottom: 75px;
 		z-index: 2;
 
 		&--side-img {
@@ -525,7 +525,7 @@ textarea:focus {
 	width: 100%;
 	background: $superDarkGreen;
 	position: relative;
-	height: 308px;
+	height: 75px;
 	&:after,
 	&:before {
 		content: '';
