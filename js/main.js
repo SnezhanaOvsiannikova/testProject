@@ -38,7 +38,7 @@ $(document).ready(function () {
 		dots: true,
 		responsive: [
                 {
-                breakpoint: 768,
+                breakpoint: 1024,
                 settings: {
                     autoplay: true,
                     autoplaySpeed:3100,

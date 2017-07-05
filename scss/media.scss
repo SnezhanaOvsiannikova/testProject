@@ -32,6 +32,9 @@
 			} 
 		}
 	}
+	.carousel-block__wrapper {
+		padding-top: 170px;
+	}
 }
 
 @media(min-width: 1024px) {
@@ -60,6 +63,8 @@
 	}
 	.info-article .content-holder {
 		padding-top: 185px;
+		width: 76%;
+    	margin: 0 auto;
 	}
 	.info-section__info-article {
 		padding-right: 0;
@@ -71,7 +76,11 @@
 	}
 	.info-article--side-img .content-holder {
 		padding-left: 330px;
-		padding-top: 0;
+		padding-top: 34px;
 		padding-right: 0;
+		width: 60%;
+	}
+	.carousel-block__slider .slick-dots {
+		opacity: 1;
 	}
 }

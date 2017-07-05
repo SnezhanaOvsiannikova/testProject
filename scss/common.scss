@@ -66,7 +66,7 @@ body  {
 
     &__zip-form {
     	position: absolute;
-		bottom: -135px;
+		bottom: -116px;
 		z-index: 2;
 		left: 50%;
 		-webkit-transform: translate(-50%,0);
@@ -120,7 +120,7 @@ input,
 textarea {
 	border: 1px solid $gray1;
 	box-sizing: border-box;
-	padding: 10px 16px 9px;
+	padding: 6px 14px 8px;
 	width: 100%;
 
 	&.error {
@@ -195,7 +195,7 @@ textarea:focus {
     }
     .input-holder {
     	position: relative;
-    	padding: 30px 33px 24px;
+    	padding: 28px 32px;
     	input {
     		display: inline-block;
 	    	-webkit-border-radius: $borderRadius1;
@@ -221,7 +221,7 @@ textarea:focus {
 	    }
     }
     p {
-    	margin: 112px 0 24px;
+    	margin: 108px 0 24px;
     }
 }
 .contact-form {
@@ -267,7 +267,7 @@ textarea:focus {
 .btn {
 	text-transform: uppercase;
 	line-height: 30px;
-	padding: 10px 38px 12px;
+	padding: 8px 36px;
 	background: $blue;
 	border:  none;
 	-webkit-border-radius: $borderRadius1;
@@ -294,7 +294,7 @@ textarea:focus {
 .btn-border,
 .btn,
 .submit-round-btn {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	&:focus {
 		outline: none;
 	}
@@ -389,19 +389,18 @@ textarea:focus {
 	}
 
 	&__wrapper {
-		padding: 170px 12px 50px;
+		padding: 130px 12px 50px;
 		text-align: center; 
 	}
 
 	&__slider {
 		margin-bottom: 0;
-		min-height: 398px;
-
+		height: 368px;
 		.slick-dots {
 			opacity: 0;
-			bottom: 20px;
+			bottom: 0;
 			li {
-				margin: 0 9px; 
+				margin: 0 16px; 
 				button {
 					width: 16px;
 					height: 16px;
@@ -459,13 +458,12 @@ textarea:focus {
 	position: relative;
 
 	h3 {
-		text-align: center;
 		margin-bottom: 30px;
 	}
 
 	p {
 		margin-bottom: 50px;
-		line-height: 20px;
+		line-height: 24px;
 	}
 
 	.content-holder {
@@ -484,7 +482,7 @@ textarea:focus {
 		min-height: 440px;
 
 		.content-holder {
-			padding: 0 12px 0;
+			padding: 34px 12px 0;
 			z-index: 1;
 		}
 	}
@@ -495,20 +493,26 @@ textarea:focus {
 	&__img-tablet {
 		&:after {
 			left: 50%;
-			-webkit-transform: translate3d(-83%, 0, 0);
-			-o-transform: translate3d(-83%, 0, 0);
-			-moz-transform: translate3d(-83%, 0, 0);
-			-ms-transform: translate3d(-83%, 0, 0);
-    		transform: translate3d(-83%, 0, 0);
+			-webkit-transform: translate3d(-50%, 0, 0);
+			-o-transform: translate3d(-50%, 0, 0);
+			-moz-transform: translate3d(-50%, 0, 0);
+			-ms-transform: translate3d(-50%, 0, 0);
+    		transform: translate3d(-50%, 0, 0);
 		}
+		h3 {
+			text-align: center;
+		}
+	}
+	&__img-laptop:after {
+		top: 34px;
 	}
 	&__info-article {
 		padding: 85px 12px 0;
-		margin-bottom: 220px;
+		margin-bottom: 308px;
 		z-index: 2;
 
 		&--side-img {
-			padding: 0 0 120px;
+			padding: 0 0 106px;
 			z-index: 2;
 		}
 	}
@@ -521,7 +525,7 @@ textarea:focus {
 	width: 100%;
 	background: $superDarkGreen;
 	position: relative;
-	height: 220px;
+	height: 308px;
 	&:after,
 	&:before {
 		content: '';
@@ -539,7 +543,7 @@ textarea:focus {
 		right: 0;
 		width: 100%;
 		background: linear-gradient(to top left, $darkGreen 50%, transparent 50%);
-		height: 92%;
+		height: 95%;
 	}
 }
 .main,
