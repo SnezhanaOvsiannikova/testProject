@@ -8,7 +8,7 @@ $(document).ready(function () {
 				rescaleOnResize: true,
 				align: 'center'
 			});
-		}, 500);
+		}, 100);
 	});
 
 	banner.slick({
